@@ -1,0 +1,69 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-image: 
+    linear-gradient( to bottom, #000000bb, #374852d4, #000000c4),
+    url(./Pix/netflixBg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    }
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topleft{
+    padding: 20px;
+    font-size: 50px;
+    color: red;
+    margin-left: 30px;
+}
+
+.topright{
+    padding: 20px;
+    justify-content: flex-start;
+    margin-right: 40px;
+    
+}
+
+.center{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 300px;
+    
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #e50914; /* Netflix red color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select {
+    font-size: 18px; /* Increase the font size */
+    padding: 10px; /* Add some padding for better spacing */
+    border: 2px solid #ffffff; /* Netflix red border */
+    border-radius: 5px; /* Round the corners */
+    background-color: #111; /* Dark background */
+    color: white; /* White text color */
+    appearance: none; /* Removes default dropdown arrow (you can add custom arrow) */
+    cursor: pointer; /* Makes the select box clickable */
+    transition: border-color 0.3s ease; /* Smooth transition on focus */
+}
+
+
+
+
